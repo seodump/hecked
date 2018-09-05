@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+body {
+  background-color: #888;
+  color: #fff;
+}
+
+.main {
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+}
+
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+section header {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 2rem 8rem 2rem 4rem;
+  background-color: #e29385;
+  font-size: 1.5rem;
+  font-style: italic;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.3);
+box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.3);
+}
+
+section #prophecy {
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+  font-style: italic;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
+
+section .content {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+section aside {
+  opacity: 0.3;
+  text-decoration: line-through;
+  margin-bottom: 1rem;
+}
+
+#welcome {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),   url("https://ragutierrez.com/images/vaporwave_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 7rem;
+}
+
+#welcome h1 {
+  font-family: 'Noto Sans Japanese', serif;
+  font-weight: 500;
+  font-size: 3rem;
+  letter-spacing: 15px;
+  margin-bottom: 1rem;
+}
+
+#welcome .subtitle {
+  margin: 10px;
+  letter-spacing: 20px;
+}
+
+#subwelcome, #introduction {
+  border-bottom: 7px solid #7f7f7f;
+}
+
+#subwelcome {
+  background-color: #35BFBA;
+}
+
+#confession {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),   url("https://ragutierrez.com/images/vcr_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 7rem;
+}
+
+#what-we-stand-for {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
